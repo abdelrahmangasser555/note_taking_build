@@ -136,7 +136,7 @@
   function togglePopup() {
     const chatPopup = document.getElementById("chat-popup");
     chatPopup.classList.toggle("hidden");
-    if (!chatPopup.classList.contains("hidden")) {
+    if (chatPopup.classList.contains("hidden")) {
       document.getElementById("chat-input").focus();
       // scroll to bottom
       const chatMessages = document.getElementById("chat-messages");

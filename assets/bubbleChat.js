@@ -77,7 +77,7 @@
 					<path stroke-linecap="round" stroke-linejoin="round" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
 				</svg>
 			</div>
-			<div id="chat-popup" class="hidden absolute bottom-20 right-0 w-96 bg-white rounded-md shadow-md flex flex-col transition-all text-sm">
+			<div id="chat-popup" class="hidden absolute bottom-20 right-0 w-96 bg-white rounded-md shadow-md flex flex-col transition-all text-sm ">
 				<div id="chat-header" class="flex justify-between items-center p-4 bg-gray-800 text-white rounded-t-md">
 					<h3 class="m-0 text-lg">Manufacturing Chat Agent</h3>
 					<button id="close-popup" class="bg-transparent border-none text-white cursor-pointer">
